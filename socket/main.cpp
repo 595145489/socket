@@ -20,10 +20,10 @@ using namespace std;
 
 int main() {
 
-	TCP_server TCP;
-	TCP.Server_main();
-	//TCP_client TCP;
-	//TCP.Client_main();
+	//TCP_server TCP;
+	//TCP.Server_main();
+	TCP_client TCP;
+	TCP.Client_main();
 
 	return 0;
 }
